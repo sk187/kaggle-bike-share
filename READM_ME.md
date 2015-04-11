@@ -1,4 +1,5 @@
 Kaggle Bike Share Data
+=================================
 
 Got rid of datetime, parsed it out into integers and added them to the dataframe.
 Added days of the week coded from 0 -6 (Sat - Sunday)
