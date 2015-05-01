@@ -1,39 +1,21 @@
 Kaggle Bike Share Data
 =================================
+# Report:
+* Created:
+    1. Avg Temp by Day
+    2. Avg Temp by Week
+    3. Daily Temp Deviation from Avg Weekly Temp
+    4. Week Number by ISO
+    5. Day of the Week
 
-# Progress Thus Far
+## Predictions
+I used Random Forest Models and was able to get a RMSE from Kaggle of 1.266. 
 
-* Got rid of datetime, parsed it out into integers and added them to the    
-  dataframe.
-  * Added Month
-  * Added Day
-  * Added Year
-    
-* Added days of the week coded from 0 -6 (Sat - Sunday)
-* Ran a random forest algorithm, getting 0.5 
-* Built a graph for days in a Season
-
-# To do:
-* Build Graph for
-    1. Rides per day of the week
-    2. Rides weekday / weekend
-    3. Rides by Month
-        * by avg temp
-        * by avg temp it felt like
-        * by wind speed
-        * by working day
-    4. Rides lag time from Snow
-    5. Rides by average 7 day temp
-    6. Avg rides by hour of each day of the week
-    7. Avg temp per week 
-    8. Avg temp per Month
-    9. Rides by weather
-
-* Possibile External Data To Add
-    1. Metro Delays 
-    2. Sun Rise/ Sun Set data for daylight 
-    3. 
-
+## Ways to Improve
+*Added:
+    1. Sunrise/ Sunset data
+    2. Better catergorize Weather 
+    3. Reformat the datestamp data
 
 
 
