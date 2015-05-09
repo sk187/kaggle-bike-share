@@ -8,9 +8,9 @@ from sklearn import ensemble
 from sklearn.metrics import mean_squared_error as mse
 
 
-x_data = pd.read_csv('/Users/sunggyunkim/Documents/Kaggle Bike Share/clean_data.csv')
-y_data = pd.read_csv('/Users/sunggyunkim/Documents/Kaggle Bike Share/clean_data.csv')
-train_data = pd.read_csv('/Users/sunggyunkim/Documents/Kaggle Bike Share/clean_data.csv')
+x_data = pd.read_csv('/Users/sunggyunkim/Documents/Kaggle Bike Share/data/clean_data.csv')
+y_data = pd.read_csv('/Users/sunggyunkim/Documents/Kaggle Bike Share/data/clean_data.csv')
+train_data = pd.read_csv('/Users/sunggyunkim/Documents/Kaggle Bike Share/data/clean_data.csv')
 
 #####################################################################################################
 # Decision Tree Modeling 
