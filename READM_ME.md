@@ -33,10 +33,9 @@ After doing some basic data visualization, I was convinced weather, both tempera
 I used Random Forest Models and was able to get a RMSE from Kaggle of 1.266. I played around with difference features for fitting the model but was not able to get a better score. However when I just used the information I was given (only splitting the time stamp), I was able to get a RMS of 0.46. 
 
 ## Ways to Improve
-* Added:
-    1. Sunrise/ Sunset data
-    2. Better categorizing Weather 
-    3. Create dummy variables for days of the week
+* Sunrise/ Sunset data
+* Better categorizing Weather 
+* Create dummy variables for days of the week
 
 ## Conclusion:
 While the model is pretty good, it may not accurately model demand of registered riders as the popularity, availability and culture around bikes in DC changes. As seen with the huge shift between year 1 and 2 in the data for registered riders, there maybe continue to be a huge shift. It would be helpful to have total number of registered riders and then compare it to active ridership for any given hour. This would help make the model more accurate for this category. 
